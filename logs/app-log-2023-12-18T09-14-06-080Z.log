@@ -1,0 +1,9 @@
+[2023-12-18T17:14:18.366] [INFO] file - POST /product/getCategory  - 100ms
+[2023-12-18T17:14:18.381] [INFO] file - POST /product/getAllProduct  - 46ms
+[2023-12-18T17:14:24.168] [INFO] file - POST /users/findUserName  - 6ms
+[2023-12-18T17:14:27.871] [INFO] file - POST /users/findUserName  - 5ms
+[2023-12-18T17:14:32.892] [INFO] file - POST /users/findUserName  - 6ms
+[2023-12-18T17:14:33.163] [INFO] file - POST /users/register  - 17ms
+[2023-12-18T17:14:43.848] [INFO] file - POST /users/login  - 4ms
+[2023-12-18T17:14:44.207] [INFO] file - POST /user/shoppingCart/getShoppingCart  - 8ms
+[2023-12-18T17:14:49.049] [INFO] file - POST /users/logout  - 24ms

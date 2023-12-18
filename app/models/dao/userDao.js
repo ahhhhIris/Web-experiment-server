@@ -1,0 +1,30 @@
+
+const db = require('./db.js');
+
+module.exports = {
+  // 连接数据库根据用户名和密码查询用户信息
+  Login: async (userName, password) => {
+    const sql = 'select * from users where userName = ? and password = ?';
+    return await db.query(sql, [userName, password]);
+  },
+  // 连接数据库根据用户名查询用户信息
+  FindUserName: async (userName) => {
+    const sql = 'select * from users where userName = ?';
+    return await db.query(sql, [userName]);
+  },
+  // 连接数据库插入用户信息
+  Register: async (userName, password) => {
+    const sql = 'insert into users values(null,?,?,null)';
+    return await db.query(sql, [userName, password]);
+  },
+  // 连接数据库删除用户信息
+  Logout1: async (userId) => {
+    const sql = 'delete from users where user_id = ?';
+    return await db.query(sql, [userId]);
+  },
+  // 连接数据库删除购物车
+  Logout2: async (userId) => {
+    const sql = 'delete from shoppingCart where user_id =?';
+    return await db.query(sql, [userId]);
+  }
+}

@@ -1,0 +1,14 @@
+INSERT INTO storedb.orders (id, order_id, user_id, product_id, product_num, product_price, order_time) VALUES (1, 11701863210511, 1, 2, 1, 2599, 1701863210511);
+INSERT INTO storedb.orders (id, order_id, user_id, product_id, product_num, product_price, order_time) VALUES (2, 11701870346295, 1, 18, 1, 2999, 1701870346295);
+INSERT INTO storedb.orders (id, order_id, user_id, product_id, product_num, product_price, order_time) VALUES (3, 11701870794646, 1, 1, 1, 1599, 1701870794646);
+INSERT INTO storedb.orders (id, order_id, user_id, product_id, product_num, product_price, order_time) VALUES (4, 11701870844393, 1, 3, 2, 2599, 1701870844393);
+INSERT INTO storedb.orders (id, order_id, user_id, product_id, product_num, product_price, order_time) VALUES (5, 11701870951795, 1, 4, 1, 699, 1701870951795);
+INSERT INTO storedb.orders (id, order_id, user_id, product_id, product_num, product_price, order_time) VALUES (6, 11701871008671, 1, 10, 5, 1899, 1701871008671);
+INSERT INTO storedb.orders (id, order_id, user_id, product_id, product_num, product_price, order_time) VALUES (7, 11701874712718, 1, 11, 5, 2799, 1701874712718);
+INSERT INTO storedb.orders (id, order_id, user_id, product_id, product_num, product_price, order_time) VALUES (8, 11701874712718, 1, 18, 6, 2999, 1701874712718);
+INSERT INTO storedb.orders (id, order_id, user_id, product_id, product_num, product_price, order_time) VALUES (9, 11701874712718, 1, 6, 1, 1199, 1701874712718);
+INSERT INTO storedb.orders (id, order_id, user_id, product_id, product_num, product_price, order_time) VALUES (10, 11701874712718, 1, 1, 1, 1599, 1701874712718);
+INSERT INTO storedb.orders (id, order_id, user_id, product_id, product_num, product_price, order_time) VALUES (11, 11701874712718, 1, 3, 10, 2599, 1701874712718);
+INSERT INTO storedb.orders (id, order_id, user_id, product_id, product_num, product_price, order_time) VALUES (12, 11701874712718, 1, 5, 7, 699, 1701874712718);
+INSERT INTO storedb.orders (id, order_id, user_id, product_id, product_num, product_price, order_time) VALUES (13, 11702514872289, 1, 3, 1, 2599, 1702514872289);
+INSERT INTO storedb.orders (id, order_id, user_id, product_id, product_num, product_price, order_time) VALUES (14, 11702524926250, 1, 3, 1, 2599, 1702524926250);
